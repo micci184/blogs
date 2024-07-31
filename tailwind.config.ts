@@ -8,6 +8,11 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      maxWidth: {
+        "custom": "23rem",
+        "sm-custom": "23rem", // スマホ用のカスタム幅
+        "md-custom": "23rem",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -15,6 +20,7 @@ const config: Config = {
       },
     },
   },
+  darkMode: "class",
   plugins: [],
 };
 export default config;
